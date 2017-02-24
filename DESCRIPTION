@@ -1,0 +1,10 @@
+Package: RfortranGLPK
+Type: Package
+Title: Test Project
+Version: 0.1
+Date: 02-23-2017
+Author: Seth Berardinelli
+Maintainer: Seth Berardinelli <sdberardinelli@gmail.com>
+Description: A simple R test function that wraps Fortran code which calls GLPK (test a simple example lp problem)
+License: GPL-3
+LazyLoad: no

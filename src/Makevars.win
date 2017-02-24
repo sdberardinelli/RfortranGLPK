@@ -1,0 +1,6 @@
+PKG_CPPFLAGS=-g -D_R_=1 -DUSE_R=1 -DCHECK_GLPK_ARGS
+ifeq "$(WIN)" "64"
+PKG_LIBS=-L../libs/x64 -lglpk_4_60
+else
+# This should throw an comipliation error because a x86 version of glpk should not exist
+endif
